@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <meta charset="UTF-8">
+        <title>Лабораторна робота №1, варіант 4</title>
+    </head>
+    <body>
+        <h1>Лабораторна робота №1</h1>
+        <p>Виконав: <b>Голубков Іван Андрійович</b>, група КІУКІ-24-2, варіант 4</p>
+        
+        <hr>
+        <!-- Оформлений текст -->
+        <h2>1. Оформлений текст</h2>
+        <!-- Изменить на текст с картинки -->
+        <p>
+        Загальна кількість перестановок з <i>n</i> елементів дорівнює <b>добутку всіх цілих чисел</b> від <i>1</i> до <i>n</i>:<br>
+        P<sub><i>n</i></sub> = 1&bull;2&bull;3&bull;...&bull;(<i>n</i>-2)&bull;(<i>n</i>-1)&bull;<i>n</i>.
+        </p>
+
+        <hr>
+        <!-- Список -->
+        <h2>2. Дисципліни 3-го курсу</h2>
+        <dl>
+            <dt>Веб-розробка</dt>
+            <dd>Вивчення HTML, CSS та JavaScript</dd>
+            <dt>Комп'ютерні мережі</dt>
+            <dd>Протоколи та принципи роботи мереж</dd>
+            <dt>Основи DevOps</dt>
+            <dd>Системи UNIX та інструменти для DevOps</dd>
+        </dl>
+
+        <hr>
+        <!-- Таблиця -->
+        <h2>3. Фрагменти періодичнох системи хімічних елементів</h2>
+        <table border="1">
+            <caption>Періоди 1-3</caption>
+            <tr>
+                <th>Періоди</th>
+                <th>I</th>
+                <th>II</th>
+                <th>III</th>
+                <th>IV</th>
+                <th>V</th>
+                <th>VI</th>
+                <th>VII</th>
+                <th>VIII</th>
+            </tr>
+            <tr>
+                <th>1</th>
+                <td>H<br>1</td>
+                <td colspan="6"></td>
+                <td>He<br>2</td>
+            </tr>
+            <tr>
+                <th>2</th>
+                <td>Li<br>3</td>
+                <td>Be<br>4</td>
+                <td>B<br>5</td>
+                <td>C<br>6</td>
+                <td>N<br>7</td>
+                <td>O<br>8</td>
+                <td>F<br>9</td>
+                <td>Ne<br>10</td>
+            </tr>
+            <tr>
+                <th>3</th>
+                <td>Na<br>11</td>
+                <td>Mg<br>12</td>
+                <td>Al<br>13</td>
+                <td>Si<br>14</td>
+                <td>P<br>15</td>
+                <td>S<br>16</td>
+                <td>Cl<br>17</td>
+                <td>Ar<br>18</td>
+            </tr>
+        </table>
+
+        <hr>
+        <!-- Форма -->
+        <h2>4. Комплектуючі ПК</h2>
+        <form action="#" method="get">
+            <p>
+                <label for="owner">Ім'я власника:</label>
+                <input type="text" id="owner" name="owner">
+            </p>
+            <p>
+                <label for="cpu">Процесор:</label>
+                <select id="cpu" name="cpu">
+                    <option value="intel">Intel</option>
+                    <option value="amd">AMD</option>
+                </select>
+            </p>
+            <p>
+                <label for="gpu">Відеокарта:</label>
+                <input type="text" id="gpu" name="gpu">
+            </p>
+            <p>
+                Оперативна пам'ять:<br>
+                <input type="radio" id="ram8" name="ram" value="8">
+                <label for="ram8">8 ГБ</label>
+                <input type="radio" id="ram16" name="ram" value="16">
+                <label for="ram8">16 ГБ</label>
+                <input type="radio" id="ram32" name="ram" value="32">
+                <label for="ram8">32 ГБ</label>
+            </p>
+            <p>
+                Накопичувачі:<br>
+                <input type="checkbox" id="ssd" name="ssd">
+                <label for="ssd">SSD</label>
+                <input type="checkbox" id="hdd" name="hdd">
+                <label for="hdd">HDD</label>
+            </p>
+            <p>
+                <label for="power">Потужність блока живлення (Вт):</label>
+                <input type="number" id="power" name="power">
+            </p>
+            <p>
+                <label for="comment">Коментар:</label><br>
+                <textarea id="comment" name="comment" rows="4" cols="40"></textarea>
+            </p>
+            <p>
+                <input type="submit" value="Надіслати">
+                <input type="reset" value="Очистити">
+            </p>
+        </form>
+
+        <hr>
+        <!-- Карта зображень -->
+        <h2>5. Карта зображень</h2>
+        <p>Натисніть на потрібну частину картинки:</p>
+        <img src="map.png" width="600" height="200" alt="Карта посилань: розклад, кафедра, університет" usemap="#linksmap">
+        <map name="linksmap">
+            <area shape="rect" coords="0,0,245,200" href="https://cist.nure.ua/ias/app/tt/f?p=778:2:4478365048575361::NO#" alt="розклад">
+            <area shape="rect" coords="245,0,420,200" href="https://dec.nure.ua/" alt="кафедра">
+            <area shape="rect" coords="420,0,600,200" href="https://nure.ua/" alt="університет">
+        </map>
+    </body>
+</html>
